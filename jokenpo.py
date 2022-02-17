@@ -13,6 +13,7 @@ from random import randint
 def gerar_jogadas():
     jogadas = ('pedra', 'papel', 'tesoura')
     jogada_1 = jogadas[randint(0, 2)]
+
     jogada_2 = jogadas[randint(0, 2)]
     return jogada_1, jogada_2
 
