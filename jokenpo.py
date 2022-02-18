@@ -11,15 +11,16 @@ from random import randint
 
 
 def gerar_jogadas():
-    jogadas = ('pedra', 'papel', 'tesoura')
-    jogada_1 = jogadas[randint(0, 2)]
-
-    jogada_2 = jogadas[randint(0, 2)]
-    return jogada_1, jogada_2
+    total = 0
+    while total <= 1:
+        jogadas = ('pedra', 'papel', 'tesoura')
+        jogada_1 = jogadas[randint(0, 2)]
+        jogada_2 = jogadas[randint(0, 2)]
+        total += 1
+        return jogada_1, jogada_2
 
 
 jogador_1 = gerar_jogadas()[0]
-
 jogador_2 = gerar_jogadas()[1]
 
 
