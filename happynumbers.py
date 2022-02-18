@@ -6,13 +6,3 @@ def happy(number):
 if __name__ == '__main__':
     assert all(happy(n) for n in (1, 10, 100, 130, 97))
     assert not all(happy(n) for n in (2, 3, 4, 5, 6, 8, 9))
-
-
-
-"""def assert_equal(first, second):
-    try:
-        assert first == second
-        print(second)
-    except AssertionError:
-        print('Dados Incorretos')
-"""

@@ -1,4 +1,4 @@
-from fizzbuzz import *
+from fizzbuzz.fizzbuzz import robot
 import unittest
 
 
